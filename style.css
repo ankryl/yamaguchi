@@ -498,6 +498,31 @@ html {
   }
 }
 
+
+@media(min-width:1920px) {
+  @keyframes ellipseAnim {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+
+    50% {
+      width: 282px;
+      height: 89px;
+    }
+
+    80% {
+      width: 282px;
+      height: 89px;
+    }
+
+    100% {
+      width: 193px;
+      height: 61px;
+    }
+  }
+}
+
 .girl-ellipse {
   display: flex;
   flex-direction: column;
